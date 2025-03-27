@@ -1,8 +1,12 @@
 import "./App.css";
+import Hero from "./components/Hero";
 
 function App() {
-  return <h1>Anasayfa</h1>;
-  //router ve axios luruldu
+  return (
+    <div>
+      <Hero />
+    </div>
+  );
 }
 
 export default App;
