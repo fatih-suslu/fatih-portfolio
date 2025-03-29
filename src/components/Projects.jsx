@@ -44,7 +44,7 @@ export default function Projects() {
       <h2 className="text-5xl font-bold mb-12">Projects</h2>
       <div className="flex flex-wrap gap-6 justify-between w-full">
         {projects.map((project, index) => (
-          <div key={index} className="flex flex-col gap-4 w-[300px]">
+          <div key={index} className="flex flex-col gap-4 w-[320px]">
             <img
               src={project.img}
               alt={project.name}
