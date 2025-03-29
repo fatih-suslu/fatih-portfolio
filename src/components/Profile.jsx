@@ -1,35 +1,39 @@
 export default function Profile() {
-  return (
-    <main className="text-left flex flex-col md:flex-row place-content-around items-center mt-8 px-6">
-      <div className="flex flex-col items-start max-w-[600px]">
-        <h1 className="text-5xl font-bold">{content[language].greeting}</h1>
-        <p className="text-2xl mt-4 mb-8 z-10">
-          {content[language].description}
-        </p>
+  const profileInfo = [
+    { label: "Doğum Tarihi", value: "04.11.1998" },
+    { label: "İkamet Şehri", value: "Antalya" },
+    {
+      label: "Eğitim Durumu",
+      value: "Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği, Lisans",
+    },
+    { label: "Tercih Ettiği Rol", value: "Frontend, UI" },
+  ];
 
-        <div className="flex gap-4">
-          <a href="/">
-            {theme ? (
-              <img src={linkedinsiyah} alt="Icon" />
-            ) : (
-              <img src={linkedinbeyaz} alt="Icon" />
-            )}
-          </a>
-          <a href="/">
-            {theme ? (
-              <img src={githubsiyah} alt="Icon" />
-            ) : (
-              <img src={githubbeyaz} alt="Icon" />
-            )}
-          </a>
+  const aboutMe =
+    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia. Minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!";
+
+  return (
+    <section className="px-32 py-16">
+      <h2 className="text-5xl font-bold mb-12">Profile</h2>
+      <div className="flex flex-col md:flex-row justify-between gap-12">
+        <div className="flex flex-col gap-6 max-w-lg">
+          <h3 className="text-3xl font-semibold text-indigo-600 mb-4">
+            Profile
+          </h3>
+          {profileInfo.map((item, index) => (
+            <div key={index} className="flex text-lg">
+              <span className="font-bold w-1/3">{item.label}:</span>
+              <span className="ml-2 w-2/3">{item.value}</span>
+            </div>
+          ))}
         </div>
-        <p className="mt-6 text-gray-600 dark:text-gray-400">
-          {content[language].freelancingInfo}
-        </p>
+        <div className="flex flex-col max-w-lg">
+          <h3 className="text-3xl font-semibold text-indigo-600 mb-4">
+            About Me
+          </h3>
+          <p className="text-gray-700">{aboutMe}</p>
+        </div>
       </div>
-      <div className="bg-white dark:bg-gray-700 rounded-2xl p-2 m-6 max-w-[341px] shadow-lg">
-        <img src={vesPic} alt="Profile" className="rounded-3xl" />
-      </div>
-    </main>
+    </section>
   );
 }
