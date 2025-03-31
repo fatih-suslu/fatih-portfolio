@@ -40,17 +40,22 @@ export default function Projects() {
   ];
 
   return (
-    <section className="px-32 py-16 mb-12">
-      <h2 className="text-5xl font-bold mb-12">Projects</h2>
-      <div className="flex flex-wrap gap-6 justify-between w-full">
+    <section className="px-8 md:px-16 lg:px-32 py-16 mb-12">
+      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 md:mb-12">
+        Projects
+      </h2>
+      <div className="flex flex-wrap gap-6 justify-center md:justify-between w-full">
         {projects.map((project, index) => (
-          <div key={index} className="flex flex-col gap-4 w-[320px]">
+          <article
+            key={index}
+            className="flex flex-col gap-4 w-full sm:w-[320px] mb-8 md:mb-0"
+          >
             <img
               src={project.img}
               alt={project.name}
               className="w-full h-auto"
             />
-            <h3 className="text-3xl font-semibold text-indigo-600">
+            <h3 className="text-2xl md:text-3xl font-semibold text-indigo-600">
               {project.name}
             </h3>
             <p className="text-gray-700">{project.description}</p>
@@ -77,7 +82,7 @@ export default function Projects() {
                 </a>
               ))}
             </div>
-          </div>
+          </article>
         ))}
       </div>
     </section>

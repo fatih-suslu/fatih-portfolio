@@ -18,12 +18,14 @@ export default function Skills() {
   ];
 
   return (
-    <section className="px-32 py-16 bg-white">
+    <section className="py-16 px-8 md:px-16 lg:px-32 bg-white">
       {/* Başlık */}
-      <h2 className="text-5xl font-bold mb-12">Skills</h2>
+      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-12">
+        Skills
+      </h2>
 
       {/* Skill Kartları */}
-      <div className="flex flex-col md:flex-row justify-between gap-12">
+      <article className="flex flex-col md:flex-row justify-between gap-12">
         {skills.map((skill, index) => (
           <div key={index} className="flex flex-col items-start max-w-sm">
             <h3 className="text-3xl font-semibold text-indigo-600 mb-4">
@@ -32,7 +34,7 @@ export default function Skills() {
             <p className="text-gray-500">{skill.description}</p>
           </div>
         ))}
-      </div>
+      </article>
     </section>
   );
 }
