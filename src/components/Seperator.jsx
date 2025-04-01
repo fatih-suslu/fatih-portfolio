@@ -1,3 +1,14 @@
+import { useContext } from "react";
+import { ThemeContext } from "../contexts/ThemeContext";
+
 export default function Seperator() {
-  return <div className="border-t border-gray-300 mx-32"></div>;
+  const { darkMode } = useContext(ThemeContext);
+
+  return (
+    <div
+      className={`border-t mx-4 md:mx-32 ${
+        darkMode ? "border-gray-600" : "border-gray-400"
+      }`}
+    ></div>
+  );
 }

@@ -1,27 +1,23 @@
+import { useContext } from "react";
+import { LanguageContext } from "../contexts/LanguageContext";
+import { ThemeContext } from "../contexts/ThemeContext";
+import data from "../data/db.json";
+
 export default function Skills() {
-  const skills = [
-    {
-      name: "JavaScript",
-      description:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    },
-    {
-      name: "React.Js",
-      description:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    },
-    {
-      name: "Node.Js",
-      description:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    },
-  ];
+  const { language } = useContext(LanguageContext);
+  const { darkMode } = useContext(ThemeContext);
+  const skills = data.skills[language] || data.skills["en"]; // Varsayılan dil İngilizce
 
   return (
-    <section className="py-16 px-8 md:px-16 lg:px-32 bg-white">
+    <section
+      id="skills"
+      className={`py-16 px-8 md:px-16 lg:px-32 ${
+        darkMode ? "bg-gray-900 text-white" : "bg-white text-gray-900"
+      }`}
+    >
       {/* Başlık */}
       <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-12">
-        Skills
+        {language === "en" ? "Skills" : "Yetenekler"}
       </h2>
 
       {/* Skill Kartları */}

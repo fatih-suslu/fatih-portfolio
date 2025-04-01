@@ -1,0 +1,206 @@
+{
+  "navbar": {
+    "darkModeText": {
+      "en": "DARK MODE",
+      "tr": "KARANLIK MOD"
+    },
+    "lightModeText": {
+      "en": "LIGHT MODE",
+      "tr": "AYDINLIK MOD"
+    },
+    "languageToggle": {
+      "en": {
+        "text": "SWITCH TO",
+        "language": "TÜRKÇE"
+      },
+      "tr": {
+        "text": "GEÇ",
+        "language": "ENGLISH"
+      }
+    },
+    "links": {
+      "en": [
+        { "id": "skills", "text": "Skills" },
+        { "id": "projects", "text": "Projects" },
+        { "id": "hire-me", "text": "Hire me" }
+      ],
+      "tr": [
+        { "id": "skills", "text": "Yetenekler" },
+        { "id": "projects", "text": "Projeler" },
+        { "id": "hire-me", "text": "Beni İşe Al" }
+      ]
+    }
+  },
+  "hero": {
+    "en": {
+      "name": "Fatih Süslü",
+      "title": "Creative thinker\nMinimalism lover",
+      "description": "Hi, I'm Fatih. I'm a full-stack developer.If you are looking for a\n developer who can craft solid and scalable frontend products with\n great user experiences. Let's shake hands with me.",
+      "buttons": {
+        "hireMe": "Hire me",
+        "github": "Github",
+        "linkedin": "Linkedin"
+      },
+      "links": {
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      }
+    },
+    "tr": {
+      "name": "Fatih Süslü",
+      "title": "Yaratıcı Düşünür\nMinimalizm Aşığı",
+      "description": "Merhaba, ben Fatih. Ben bir full-stack geliştiricisiyim. Eğer sağlam\n ve ölçeklenebilir frontend ürünleri harika kullanıcı deneyimleriyle\n oluşturabilecek bir geliştirici arıyorsanız, el sıkışalım.",
+      "buttons": {
+        "hireMe": "Beni İşe Al",
+        "github": "Github",
+        "linkedin": "Linkedin"
+      },
+      "links": {
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      }
+    }
+  },
+  "skills": {
+    "en": [
+      {
+        "name": "JavaScript",
+        "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "name": "React.js",
+        "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "name": "Node.js",
+        "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      }
+    ],
+    "tr": [
+      {
+        "name": "JavaScript",
+        "description": "Çok yönlü bir programlama dili."
+      },
+      {
+        "name": "React",
+        "description": "Kullanıcı arayüzleri oluşturmak için bir kütüphane."
+      },
+      {
+        "name": "Node.js",
+        "description": "Sunucu tarafında JavaScript çalıştırmak için bir ortam."
+      }
+    ]
+  },
+  "profile": {
+    "en": {
+      "profileInfo": [
+        { "label": "Date of Birth", "value": "04.11.1998" },
+        { "label": "City of Residence", "value": "Antalya" },
+        {
+          "label": "Education",
+          "value": "Süleyman Demirel University, Computer Engineering, Bachelor's"
+        },
+        { "label": "Preferred Role", "value": "Frontend, UI" }
+      ],
+      "aboutMe": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.\n \n Minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+    },
+    "tr": {
+      "profileInfo": [
+        { "label": "Doğum Tarihi", "value": "04.11.1998" },
+        { "label": "İkamet Şehri", "value": "Antalya" },
+        {
+          "label": "Eğitim Durumu",
+          "value": "Süleyman Demirel Üniversitesi, Bilgisayar Mühendisliği, Lisans"
+        },
+        { "label": "Tercih Ettiği Rol", "value": "Frontend, UI" }
+      ],
+      "aboutMe": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.\n \n Minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+    }
+  },
+  "projects": {
+    "en": [
+      {
+        "name": "Workintech",
+        "img": "projectImg1",
+        "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+        "tags": ["react", "redux", "axios"],
+        "links": [
+          { "site": "GitHub", "url": "https://github.com" },
+          { "site": "View Site", "url": "https://example.com" }
+        ]
+      },
+      {
+        "name": "Random Jokes",
+        "img": "projectImg2",
+        "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+        "tags": ["react", "redux", "axios"],
+        "links": [
+          { "site": "GitHub", "url": "https://github.com" },
+          { "site": "View Site", "url": "https://example.com" }
+        ]
+      },
+      {
+        "name": "Journey",
+        "img": "projectImg3",
+        "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+        "tags": ["react", "node.js", "mongodb"],
+        "links": [
+          { "site": "GitHub", "url": "https://github.com" },
+          { "site": "View Site", "url": "https://example.com" }
+        ]
+      }
+    ],
+    "tr": [
+      {
+        "name": "Workintech",
+        "img": "projectImg1",
+        "description": "Basit, özelleştirilebilir ve minimal kurulum gerektiren bir çerez eklentisi. Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur. Bir NPM paketi olarak mevcuttur ve Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapılabilir.",
+        "tags": ["react", "redux", "axios"],
+        "links": [
+          { "site": "GitHub", "url": "https://github.com" },
+          { "site": "Siteyi Görüntüle", "url": "https://example.com" }
+        ]
+      },
+      {
+        "name": "Random Jokes",
+        "img": "projectImg2",
+        "description": "Basit, özelleştirilebilir ve minimal kurulum gerektiren bir çerez eklentisi. Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur. Bir NPM paketi olarak mevcuttur ve Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapılabilir.",
+        "tags": ["react", "redux", "axios"],
+        "links": [
+          { "site": "GitHub", "url": "https://github.com" },
+          { "site": "Siteyi Görüntüle", "url": "https://example.com" }
+        ]
+      },
+      {
+        "name": "Journey",
+        "img": "projectImg3",
+        "description": "Basit, özelleştirilebilir ve minimal kurulum gerektiren bir çerez eklentisi. Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur. Bir NPM paketi olarak mevcuttur ve Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapılabilir.",
+        "tags": ["react", "node.js", "mongodb"],
+        "links": [
+          { "site": "GitHub", "url": "https://github.com" },
+          { "site": "Siteyi Görüntüle", "url": "https://example.com" }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "en": {
+      "title": "Let's work together on\n your next product.",
+      "email": "fatihsuslu98@gmail.com",
+      "socials": [
+        { "name": "Personal Blog", "url": "#" },
+        { "name": "Github", "url": "https://github.com" },
+        { "name": "Linkedin", "url": "https://linkedin.com" }
+      ]
+    },
+    "tr": {
+      "title": "Bir sonraki projenizde\n birlikte çalışalım.",
+      "email": "fatihsuslu98@gmail.com",
+      "socials": [
+        { "name": "Kişisel Blog", "url": "#" },
+        { "name": "Github", "url": "https://github.com" },
+        { "name": "Linkedin", "url": "https://linkedin.com" }
+      ]
+    }
+  }
+}
