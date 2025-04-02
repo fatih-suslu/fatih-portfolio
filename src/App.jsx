@@ -8,12 +8,14 @@ import Skills from "./components/Skills";
 import Navbar from "./components/Navbar";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { LanguageProvider } from "./contexts/LanguageContext";
+import Toast from "./components/Toast";
 
 function App() {
   return (
     <ThemeProvider>
       <LanguageProvider>
         <div>
+          <Toast />
           <Navbar />
           <Hero />
           <Skills />

@@ -42,8 +42,8 @@
         "linkedin": "Linkedin"
       },
       "links": {
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com"
+        "github": "https://github.com/fatih-suslu",
+        "linkedin": "https://www.linkedin.com/in/fatih-suslu/"
       }
     },
     "tr": {
@@ -56,8 +56,8 @@
         "linkedin": "Linkedin"
       },
       "links": {
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com"
+        "github": "https://github.com/fatih-suslu",
+        "linkedin": "https://www.linkedin.com/in/fatih-suslu/"
       }
     }
   },
@@ -125,7 +125,7 @@
         "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
         "tags": ["react", "redux", "axios"],
         "links": [
-          { "site": "GitHub", "url": "https://github.com" },
+          { "site": "GitHub", "url": "https://github.com/fatih-suslu" },
           { "site": "View Site", "url": "https://example.com" }
         ]
       },
@@ -135,7 +135,7 @@
         "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
         "tags": ["react", "redux", "axios"],
         "links": [
-          { "site": "GitHub", "url": "https://github.com" },
+          { "site": "GitHub", "url": "https://github.com/fatih-suslu" },
           { "site": "View Site", "url": "https://example.com" }
         ]
       },
@@ -145,7 +145,7 @@
         "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
         "tags": ["react", "node.js", "mongodb"],
         "links": [
-          { "site": "GitHub", "url": "https://github.com" },
+          { "site": "GitHub", "url": "https://github.com/fatih-suslu" },
           { "site": "View Site", "url": "https://example.com" }
         ]
       }
@@ -157,7 +157,7 @@
         "description": "Basit, özelleştirilebilir ve minimal kurulum gerektiren bir çerez eklentisi. Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur. Bir NPM paketi olarak mevcuttur ve Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapılabilir.",
         "tags": ["react", "redux", "axios"],
         "links": [
-          { "site": "GitHub", "url": "https://github.com" },
+          { "site": "GitHub", "url": "https://github.com/fatih-suslu" },
           { "site": "Siteyi Görüntüle", "url": "https://example.com" }
         ]
       },
@@ -167,7 +167,7 @@
         "description": "Basit, özelleştirilebilir ve minimal kurulum gerektiren bir çerez eklentisi. Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur. Bir NPM paketi olarak mevcuttur ve Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapılabilir.",
         "tags": ["react", "redux", "axios"],
         "links": [
-          { "site": "GitHub", "url": "https://github.com" },
+          { "site": "GitHub", "url": "https://github.com/fatih-suslu" },
           { "site": "Siteyi Görüntüle", "url": "https://example.com" }
         ]
       },
@@ -177,7 +177,7 @@
         "description": "Basit, özelleştirilebilir ve minimal kurulum gerektiren bir çerez eklentisi. Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur. Bir NPM paketi olarak mevcuttur ve Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapılabilir.",
         "tags": ["react", "node.js", "mongodb"],
         "links": [
-          { "site": "GitHub", "url": "https://github.com" },
+          { "site": "GitHub", "url": "https://github.com/fatih-suslu" },
           { "site": "Siteyi Görüntüle", "url": "https://example.com" }
         ]
       }
@@ -189,8 +189,11 @@
       "email": "fatihsuslu98@gmail.com",
       "socials": [
         { "name": "Personal Blog", "url": "#" },
-        { "name": "Github", "url": "https://github.com" },
-        { "name": "Linkedin", "url": "https://linkedin.com" }
+        { "name": "Github", "url": "https://github.com/fatih-suslu" },
+        {
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/in/fatih-suslu/"
+        }
       ]
     },
     "tr": {
@@ -198,8 +201,11 @@
       "email": "fatihsuslu98@gmail.com",
       "socials": [
         { "name": "Kişisel Blog", "url": "#" },
-        { "name": "Github", "url": "https://github.com" },
-        { "name": "Linkedin", "url": "https://linkedin.com" }
+        { "name": "Github", "url": "https://github.com/fatih-suslu" },
+        {
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/in/fatih-suslu/"
+        }
       ]
     }
   }

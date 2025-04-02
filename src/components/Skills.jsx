@@ -27,7 +27,9 @@ export default function Skills() {
             <h3 className="text-3xl font-semibold text-indigo-600 mb-4">
               {skill.name}
             </h3>
-            <p className="text-gray-500">{skill.description}</p>
+            <p className={`${darkMode ? "text-gray-300" : "text-gray-500"}`}>
+              {skill.description}
+            </p>
           </div>
         ))}
       </article>
