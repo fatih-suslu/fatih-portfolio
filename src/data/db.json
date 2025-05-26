@@ -35,7 +35,7 @@
     "en": {
       "name": "Fatih Süslü",
       "title": "Creative thinker\nMinimalism lover",
-      "description": "Hi, I'm Fatih. I'm a full-stack developer.If you are looking for a\n developer who can craft solid and scalable frontend products with\n great user experiences. Let's shake hands with me.",
+      "description": "Hi, I'm Fatih, a full-stack developer. If you're looking for someone to create\n robust and scalable frontend solutions with exceptional user experiences,\n let's work together! ",
       "buttons": {
         "hireMe": "Hire me",
         "github": "Github",
@@ -49,7 +49,7 @@
     "tr": {
       "name": "Fatih Süslü",
       "title": "Yaratıcı Düşünür\nMinimalizm Aşığı",
-      "description": "Merhaba, ben Fatih. Ben bir full-stack geliştiricisiyim. Eğer sağlam\n ve ölçeklenebilir frontend ürünleri harika kullanıcı deneyimleriyle\n oluşturabilecek bir geliştirici arıyorsanız, el sıkışalım.",
+      "description": "Merhaba, ben Fatih. Ben bir frontend geliştiricisiyim.\n Eğer modern ve kullanıcı odaklı frontend çözümleri oluşturabilecek\n bir geliştirici arıyorsanız, birlikte harika işler başarabiliriz!",
       "buttons": {
         "hireMe": "Beni İşe Al",
         "github": "Github",
@@ -72,8 +72,16 @@
         "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       },
       {
-        "name": "Node.js",
-        "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "name": "Tailwind CSS",
+        "description": "A modern framework that enables fast and flexible styling using a utility-first approach."
+      },
+      {
+        "name": "Redux",
+        "description": "A predictable state container for JavaScript apps, helping to manage application state effectively."
+      },
+      {
+        "name": "Axios",
+        "description": "A promise-based HTTP client for the browser and Node.js, used for making API requests."
       }
     ],
     "tr": [
@@ -86,8 +94,16 @@
         "description": "Kullanıcı arayüzleri oluşturmak için bir kütüphane."
       },
       {
-        "name": "Node.js",
-        "description": "Sunucu tarafında JavaScript çalıştırmak için bir ortam."
+        "name": "Tailwind CSS",
+        "description": "Esnek ve hızlandırılmış stil oluşturmayı sağlayan utility-first yaklaşımıyla çalışan modern bir CSS frameworküdür"
+      },
+      {
+        "name": "Redux",
+        "description": "JavaScript uygulamaları için öngörülebilir bir durum konteyneri, uygulama durumunu etkili bir şekilde yönetmeye yardımcı olur."
+      },
+      {
+        "name": "Axios",
+        "description": "Tarayıcı ve Node.js için promise tabanlı bir HTTP istemcisi, API istekleri yapmak için kullanılır."
       }
     ]
   },
@@ -102,7 +118,7 @@
         },
         { "label": "Preferred Role", "value": "Frontend, UI" }
       ],
-      "aboutMe": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.\n \n Minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+      "aboutMe": "I am a software developer focused on frontend development. Through hands-on experience with modern technologies like React, Tailwind, and Redux, I create dynamic and user-friendly interfaces. I combine my technical expertise with strong communication skills to build functional solutions. Continuously learning, I strive to enhance user experience and push myself further in this field."
     },
     "tr": {
       "profileInfo": [
@@ -114,29 +130,41 @@
         },
         { "label": "Tercih Ettiği Rol", "value": "Frontend, UI" }
       ],
-      "aboutMe": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.\n \n Minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+      "aboutMe": "Frontend geliştirme üzerine odaklanmış bir yazılım geliştiriciyim. React, Tailwind ve Redux gibi modern teknolojilerle dinamik ve kullanıcı dostu arayüzler oluşturarak uygulamalı deneyim kazandım. Teknik yetkinliğimi güçlü iletişim becerilerimle birleştirerek, işlevsel çözümler üretmeye odaklanıyorum. Kullanıcı deneyimini geliştirmek için sürekli öğreniyor ve kendimi bu alanda daha da ileri taşımaya çalışıyorum."
     }
   },
   "projects": {
     "en": [
       {
-        "name": "Workintech",
+        "name": "Bandage Ecommerce",
         "img": "projectImg1",
-        "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+        "description": "I developed a user-friendly, fast, and secure e-commerce platform. Built with React, Redux, and Tailwind, this project features a scalable architecture that supports a wide range of products and dynamic content management.",
         "tags": ["react", "redux", "axios"],
         "links": [
-          { "site": "GitHub", "url": "https://github.com/fatih-suslu" },
-          { "site": "View Site", "url": "https://example.com" }
+          {
+            "site": "GitHub",
+            "url": "https://github.com/fatih-suslu/eCommerce"
+          },
+          {
+            "site": "View Site",
+            "url": "https://e-commerce-ochre-ten-15.vercel.app/"
+          }
         ]
       },
       {
-        "name": "Random Jokes",
-        "img": "projectImg2",
-        "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-        "tags": ["react", "redux", "axios"],
+        "name": "ElecTrack",
+        "img": "ElecTrack",
+        "description": "ElecTrack is a web application that helps users track their electronic devices' energy consumption and manage electricity usage more efficiently. With features like real-time analysis, consumption calculation, and data storage, it simplifies energy management. ",
+        "tags": ["react", "javascript", "tailwind"],
         "links": [
-          { "site": "GitHub", "url": "https://github.com/fatih-suslu" },
-          { "site": "View Site", "url": "https://example.com" }
+          {
+            "site": "GitHub",
+            "url": "https://github.com/fatih-suslu/ElecTrack"
+          },
+          {
+            "site": "View Site",
+            "url": "https://electrack-fatihsuslus-projects.vercel.app/"
+          }
         ]
       },
       {
@@ -146,29 +174,44 @@
         "tags": ["react", "node.js", "mongodb"],
         "links": [
           { "site": "GitHub", "url": "https://github.com/fatih-suslu" },
-          { "site": "View Site", "url": "https://example.com" }
+          {
+            "site": "View Site",
+            "url": "https://e-commerce-ochre-ten-15.vercel.app/"
+          }
         ]
       }
     ],
     "tr": [
       {
-        "name": "Workintech",
+        "name": "Bandage Ecommerce",
         "img": "projectImg1",
-        "description": "Basit, özelleştirilebilir ve minimal kurulum gerektiren bir çerez eklentisi. Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur. Bir NPM paketi olarak mevcuttur ve Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapılabilir.",
-        "tags": ["react", "redux", "axios"],
+        "description": "Kullanıcı dostu, hızlı ve güvenli bir e-ticaret platformu geliştirdim. React, Redux, Tailwind gibi güçlü teknolojilerle oluşturulan bu proje, ölçeklenebilir mimarisi sayesinde geniş ürün yelpazesi ve dinamik içerik yönetimi sunuyor.",
+        "tags": ["react", "redux", "axios", "tailwind"],
         "links": [
-          { "site": "GitHub", "url": "https://github.com/fatih-suslu" },
-          { "site": "Siteyi Görüntüle", "url": "https://example.com" }
+          {
+            "site": "GitHub",
+            "url": "https://github.com/fatih-suslu/eCommerce"
+          },
+          {
+            "site": "Siteyi Görüntüle",
+            "url": "https://e-commerce-ochre-ten-15.vercel.app/"
+          }
         ]
       },
       {
-        "name": "Random Jokes",
-        "img": "projectImg2",
-        "description": "Basit, özelleştirilebilir ve minimal kurulum gerektiren bir çerez eklentisi. Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanır. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur. Bir NPM paketi olarak mevcuttur ve Git deposu sayesinde kod ve temalar üzerinde her türlü özelleştirme yapılabilir.",
-        "tags": ["react", "redux", "axios"],
+        "name": "ElecTrack",
+        "img": "ElecTrack",
+        "description": "ElecTrack, kullanıcıların elektronik cihazlarının enerji tüketimini takip ederek elektrik kullanımını daha verimli yönetmelerine yardımcı olan bir web uygulamasıdır. Gerçek zamanlı analiz, tüketim hesaplama ve veri kaydı gibi özelliklerle, enerji yönetimini kolaylaştırır.",
+        "tags": ["react", "javascript", "tailwind"],
         "links": [
-          { "site": "GitHub", "url": "https://github.com/fatih-suslu" },
-          { "site": "Siteyi Görüntüle", "url": "https://example.com" }
+          {
+            "site": "GitHub",
+            "url": "https://github.com/fatih-suslu/ElecTrack"
+          },
+          {
+            "site": "Siteyi Görüntüle",
+            "url": "https://electrack-fatihsuslus-projects.vercel.app/"
+          }
         ]
       },
       {

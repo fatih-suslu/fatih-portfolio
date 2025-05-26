@@ -4,7 +4,7 @@ import { ThemeContext } from "../contexts/ThemeContext";
 import data from "../data/db.json";
 
 import projectImg1 from "../assets/projects-img-1.png";
-import projectImg2 from "../assets/projects-img-2.png";
+import ElecTrack from "../assets/ElecTrack.png";
 import projectImg3 from "../assets/projects-img-3.png";
 
 export default function Projects() {
@@ -14,7 +14,7 @@ export default function Projects() {
 
   const projectImages = {
     projectImg1: projectImg1,
-    projectImg2: projectImg2,
+    ElecTrack: ElecTrack,
     projectImg3: projectImg3,
   };
 
